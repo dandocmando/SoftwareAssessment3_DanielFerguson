@@ -18,7 +18,6 @@
 		public function Ast() {
 			// constructor code
 			this.addEventListener(Event.ADDED_TO_STAGE, onAdd);
-			this.addEventListener(Event.ENTER_FRAME, asteroidRemove);
 
 			this.addEventListener(Event.REMOVED_FROM_STAGE, onRemove);
 			//var localGameFinished=global.gameFinished;
